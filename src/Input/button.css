@@ -1,0 +1,38 @@
+.button_section{
+    margin: auto;
+}
+img.file{
+    height: 35px;
+    position: absolute;
+    left: 10px;
+    top: 0px;
+}
+
+.switch_input{
+    position: relative;
+    border: 1px black solid;
+    text-align: center;
+    height: 30px;
+    width: 200px;
+    margin: auto;
+    margin-top: 50px;
+    font-size: large;
+    font-weight: 400;
+    padding-top: 5px;
+}
+
+
+.button_submit{
+    margin: auto;
+    background-color: #3BADFF;
+
+    border-radius: 5px;
+    text-align: center;
+    height: 35px;
+    width: 150px;
+    margin-top: 40px;
+    font-size: large;
+    font-weight: 400;
+    padding-top: 5px;
+    color: aliceblue;
+}

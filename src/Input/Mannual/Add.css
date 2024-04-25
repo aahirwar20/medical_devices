@@ -1,0 +1,62 @@
+.add_section{
+    position: absolute;
+    top: 80px;
+    left: 40%;
+    z-index: 1;
+    height: 400px;
+    width: 350px;
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: #fdfdfd;
+    display: flex;
+    flex-direction: column;
+}
+
+img.close{
+    height: 30px;
+    width: 30px;
+    float: right;
+    margin: 10px;
+
+}
+.add_row{
+    width: 100%;
+    margin-left: 20px;
+    margin-top: 15px;
+}
+
+.add_row_top{
+    width: 100%;
+    margin-left: 20px;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    font-size: larger;
+    font-weight: 700;
+    color: #4D4D4D;
+}
+
+input, textarea{
+    width: 300px;
+    padding-left: 10px;
+}
+
+input{
+    height: 30px;
+}
+textarea{
+    height: 90px;
+    
+}
+
+.save{
+    background-color: #3BADFF;
+    border-radius: 5px;
+    text-align: center;
+    height: 30px;
+    width: 100px;
+    margin-top: 20px;
+    font-size: large;
+    font-weight: 400;
+    padding-top: 5px;
+    color: aliceblue;
+}

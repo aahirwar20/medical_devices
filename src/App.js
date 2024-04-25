@@ -1,22 +1,27 @@
-import logo from './logo.svg';
+import { useState } from 'react';
 import './App.css';
+import Input from './Input/index.js';
+import Output from './output/index.js';
 
 function App() {
+  const [output, setOutput] = useState(false)
+  const updateOutput = (value)=>{
+      setOutput(value)
+  }
+
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        <div className="Top">
+          <h2>Medical Device</h2>
+        </div>
+        <div>
+          {
+            output
+            ?<Output updateOutput = {updateOutput}/>
+            :<Input updateOutput = {updateOutput}/>
+          }
+        </div>
       </header>
     </div>
   );

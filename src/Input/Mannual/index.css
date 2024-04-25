@@ -1,0 +1,67 @@
+.input_section{
+   margin: auto;
+   position: relative;
+   width: 900px;
+   height: max-content;
+   padding: 0%;
+   overflow: hidden;
+}
+.border_remove{
+    border: 0px;
+    background-color: #ffffff;
+}
+
+
+
+table{
+    border-collapse: collapse;
+    width: 100%;
+    margin: 0px;
+}
+
+th.button{
+    width: 80px;
+}
+th.name{
+    width: 200px;
+}
+th.no{
+    width: 60px;
+}
+ 
+img{
+    height: 20px;
+    width: 20px;
+    float: inline-start;
+}
+img.edit{
+    margin-left: 10px;
+    float: left;
+}
+img.delete{
+    margin-right: 10px;
+    float: right;
+}
+.icons{
+  background-color: black;
+}
+tr{
+  height: 50px;
+
+}
+
+table, td, th {
+    text-align: center;
+    border: 1px solid #D5D5D5;
+    overflow: hidden;
+}
+th{
+    font-size: larger;
+    font-weight: 500;
+    background-color: #F2F2F2;
+}
+td{
+    background-color: #fafafa7e;
+    font-size: large;
+}
+
